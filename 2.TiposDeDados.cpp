@@ -4,6 +4,62 @@ using std::cout;
 using std::endl;
 using std::string;
 
+// Tipos de Dados Básicos: 
+
+// int: para numeros inteiros.
+// float: para numeros de ponto flutuante de precisão simples.
+// double: para numeros de ponto flutuante de precisão dupla.
+// char: para caracteres individuais.
+// bool: para valores lógicos (verdadeiro ou falso).
+
+// Modificadores de Tipo: usados para alterar as características dos tipos de dados básicos. 
+
+// signed: Permite que o tipo armazene valores positivos e negativos (é o padrão para int e float).
+// unsigned: Permite que o tipo armazene apenas valores positivos.
+// long: Aumenta a faixa de valores que o tipo pode armazenar.
+// short: Reduz a faixa de valores que o tipo pode armazenar.
+
+/*
+
+// OPERADORES:
+
+//Aritméticos: 
+
+//+ (adição)
+//- (subtração)
+//* (multiplicação)
+/// (divisão)
+//% (módulo, retorna o resto da divisão) 
+
+
+// Atribuição: O operador de atribuição (=) é usado para atribuir um valor a uma variável. 
+
+//int x = 5;
+
+//Comparação: usados para comparar dois valores.
+
+//== (igual a)
+//!= (diferente de)
+//< (menor que)
+//> (maior que)
+//<= (menor ou igual a)
+//>= (maior ou igual a)
+
+// Lógicos: usados para avaliar expressões lógicas.
+
+//&& (e lógico)
+//|| (ou lógico)
+//! (negação lógica)
+
+// Bitwise: São operadores que trabalham com os bits individuais de um numero. 
+
+//& (e bitwise)
+//| (ou bitwise)
+//^ (ou exclusivo bitwise)
+//<< (deslocamento para a esquerda)
+//>> (deslocamento para a direita)
+
+
 int main()
 {
     
