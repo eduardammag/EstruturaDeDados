@@ -1,0 +1,1 @@
+Anotações personalizadas e introdutórias sobre a linguagem C++ das aulas de Estruturas de Dados do 3º período da graduação da Fundação Getúlio Vargas de Ciência de Dados e Inteligência Artificial ministradas pelo professor Rafael Pinho.
