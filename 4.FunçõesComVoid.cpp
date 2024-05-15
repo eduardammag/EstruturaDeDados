@@ -7,8 +7,7 @@ using std::endl;
 using std::string;
 
 // função antes da main ou assinatura/protótipo da função antes e definição depois da main
-// void é um vazio da linguagem
-
+// void é um vazio da linguagem, indica explicitamente que a função não retorna um valor específico, ela apenas executa alguma operação
 
 void FrasePreferida()
 {
@@ -62,6 +61,17 @@ void ImprimindoElementos(int arriNumeros[], int iTamanhoVetor)
     
 }
 
+// Definição a função TrocaNumeros 
+void TrocaNumeros(int& a, int& b) {
+    // Recebe 2 referências para inteiros a e b
+    int temp = a;
+    a = b;
+    b = temp;
+    //Utiliza uma variável temporária para armazenar o valor de a antes da troca, garantindo que o valor original não seja perdido.
+    //Em seguida, atribui o valor de b a a e finalmente, atribui o valor temporário armazenado em temp a b. 
+}
+
+
 int main()
 {
     
@@ -100,6 +110,13 @@ int main()
     // sizeof(arr[0]): num de bytes ocupados pelo tipo de dado do 1° elemento do array arr. 
     //Como o tipo de dado dos elementos do array é o mesmo, essa expressão retornará o número de bytes ocupados por um único elemento do array.
     //Ao dividir o sizeof(arr)/(arr[0]), estamos calculando quantos elementos há no array arr. 
+
+
+    int a = 5, b = 10;
+    cout << "Antes da troca: a = " << a << ", b = " << b << endl;
+    // Chama a função trocar para trocar os valores de a e b
+    TrocaNumeros(a, b);
+    cout << "Depois da troca: a = " << a << ", b = " << b << endl;
 
 }
 
