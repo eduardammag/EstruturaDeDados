@@ -95,6 +95,12 @@ int main()
     int arriVetorTeste[7] = {1,7,13,42,56,678,987};
     int iTamanhoVetorTeste = sizeof(arriVetorTeste)/sizeof(arriVetorTeste[0]);
     ImprimindoElementos(arriVetorTeste, iTamanhoVetorTeste);
+
+    // sizeof(arr): num de bytes ocupados pelo array arr. Inclui espaços adicionais de alinhamento ou padding.
+    // sizeof(arr[0]): num de bytes ocupados pelo tipo de dado do 1° elemento do array arr. 
+    //Como o tipo de dado dos elementos do array é o mesmo, essa expressão retornará o número de bytes ocupados por um único elemento do array.
+    //Ao dividir o sizeof(arr)/(arr[0]), estamos calculando quantos elementos há no array arr. 
+
 }
 
 
