@@ -87,11 +87,11 @@ using namespace std;
 
     void filadinamica::imprimir()
     {
-        No* temp;
-        cout << "Fila: [ ";
+        No* temp = primeiro;
+        cout << "Fila: [";
         while (temp != NULL){
-            cout << temp -> valor << " ";
+            cout << temp -> valor << "  ";
             temp = temp -> proximo;
         }
-        cout << " ]\n";
+        cout << "]\n";
     }
